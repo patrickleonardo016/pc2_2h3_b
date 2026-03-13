@@ -10,6 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato: GoodPay</title>
 </head>
+<style>
+    .formulario {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(214, 196, 255);
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+</style>
 
 <body style="font-family: Montserrat; background-color: rgb(127, 157, 255);">
     <header>
@@ -26,23 +38,29 @@
         </section>
     </header>
     <main>
+
         <form action="">
-            <p>
-                <label for="nome">Nome: </label>
-                <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome...">
-            </p>
-            <p>
-                <label for="Email">E-mail: </label>
-                <input type="Email" name="Email" id="Email" placeholder="Digite seu E-mail...">
-            </p>
-            <p>
-                <label for="mensagem">Mensagem</label><br />
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"
-                    placeholder="Digite sua mensagem..."></textarea>
-            </p>
-            <p>
-                <input type="submit" value="Enviar">
-            </p>
+            <div class="formulario">
+                <p>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome...">
+                </p>
+                <p>
+                    <label for="Email">E-mail: </label>
+                    <input type="Email" name="Email" id="Email" placeholder="Digite seu E-mail...">
+                </p>
+            </div>
+            <div class="formulario">
+                <p>
+                    <label for="mensagem">Mensagem</label><br />
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                        placeholder="Digite sua mensagem..."></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </div>
+
         </form>
     </main>
     <footer>
